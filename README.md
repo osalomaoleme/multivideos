@@ -23,7 +23,7 @@ Aplicativo desktop com interface grafica moderna, 100% gratuito e de codigo aber
 > Nao precisa instalar Python nem nenhuma biblioteca. Basta baixar e rodar.
 
 1. Baixe a pasta **`Versao Executavel`**
-2. Execute o arquivo **`MultiVideos.bat`**
+2. Execute o arquivo **`iniciar-programa.bat`**
 3. Na primeira execucao, o programa ira verificar se voce tem o FFmpeg instalado. Caso nao tenha, ele **baixa e instala automaticamente**
 4. O programa abre, cole a URL do video e clique em **Baixar Video**
 
@@ -31,9 +31,9 @@ Aplicativo desktop com interface grafica moderna, 100% gratuito e de codigo aber
 
 ```
 Versao Executavel/
-  MultiVideos.exe    (Programa principal ~25MB)
-  MultiVideos.bat    (Inicializador com verificacao do FFmpeg)
-  LICENSE            (Licenca de uso)
+  MultiVideos.exe        (Programa principal ~25MB)
+  iniciar-programa.bat   (Inicializador com verificacao do FFmpeg)
+  LICENSE                (Licenca de uso MIT)
 ```
 
 ---
@@ -43,7 +43,7 @@ Versao Executavel/
 > Requer Python 3.10+ instalado no computador.
 
 1. Baixe a pasta **`Versao Script`**
-2. Execute o arquivo **`youtube_downloader.bat`**
+2. Execute o arquivo **`iniciar-programa.bat`**
 3. O script ira verificar e instalar automaticamente:
    - **Python** (verifica se esta instalado)
    - **FFmpeg** (instala via WinGet se necessario)
@@ -56,8 +56,8 @@ Versao Executavel/
 ```
 Versao Script/
   youtube_downloader.py    (Codigo fonte em Python)
-  youtube_downloader.bat   (Inicializador com verificacao de dependencias)
-  LICENSE                  (Licenca de uso)
+  iniciar-programa.bat     (Inicializador com verificacao de dependencias)
+  LICENSE                  (Licenca de uso MIT)
 ```
 
 **Ou rode manualmente:**
@@ -104,11 +104,9 @@ python youtube_downloader.py
 
 ## Licenca
 
-Este software e **gratuito** e de **codigo aberto**.
+Este projeto esta licenciado sob a **Licenca MIT**.
 
-- Uso, copia e distribuicao gratuita sao permitidos
-- **Proibida a venda ou comercializacao**
-- Modificacoes sao permitidas desde que os creditos ao autor sejam mantidos
+O uso, modificacao e distribuicao gratuita sao permitidos, desde que os devidos creditos ao autor original sejam mantidos, protegendo os direitos autorais conforme as regras da licenca.
 
 Consulte o arquivo [LICENSE](./LICENSE) para mais detalhes.
 
